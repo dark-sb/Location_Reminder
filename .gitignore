@@ -1,0 +1,69 @@
+# Built application files
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated build directories
+build/
+*/build/
+bin/
+gen/
+out/
+
+# Gradle files & cache
+.gradle/
+.kotlin/
+
+# Local configuration file (contains machine-specific Android SDK path)
+local.properties
+/local.properties
+
+# Signing credentials & Keystore files (NEVER commit secrets or release keys)
+*.jks
+*.keystore
+*.key
+*.p12
+*.pem
+keystore.properties
+signing.properties
+release-keystore.*
+
+# Android Studio & IntelliJ IDEA files
+*.iml
+.idea/
+.externalNativeBuild
+.cxx
+captures/
+
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Log files
+*.log
+
+# Ad-hoc root screenshots, UI dumps, and scratch files from on-device testing
+/*.png
+/.*.png
+/*_dump*.xml
+/*_ui*.xml
+/user_inputs.txt
+
+# Ensure essential Gradle Wrapper files, source resources, and configs are ALWAYS included
+!gradle/wrapper/gradle-wrapper.jar
+!app/src/**
+!compose_compiler_config.conf
+!local.properties.example
+!README.md

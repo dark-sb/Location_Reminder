@@ -1,0 +1,36 @@
+## Location Reminder - Local Configuration Template
+## Copy this file to 'local.properties' in the project root on your new machine.
+## Do NOT commit 'local.properties' to version control.
+
+# Location of the Android SDK on your machine.
+# Android Studio typically generates this automatically when you open the project.
+#
+# Windows Example:
+# sdk.dir=C\:\\Users\\<YourUsername>\\AppData\\Local\\Android\\Sdk
+#
+# macOS Example:
+# sdk.dir=/Users/<YourUsername>/Library/Android/sdk
+#
+# Linux Example:
+# sdk.dir=/home/<YourUsername>/Android/Sdk
+sdk.dir=C\:\\Users\\<YourUsername>\\AppData\\Local\\Android\\Sdk
+
+## ----------------------------------------------------------------------------
+## Optional: Release Signing Configuration
+## For building signed release APKs / AABs.
+## You can set these here, in ~/.gradle/gradle.properties, or as environment variables.
+## Never commit actual credentials or keystore files.
+## ----------------------------------------------------------------------------
+# RELEASE_STORE_FILE=C\:\\path\\to\\your\\release-keystore.jks
+# RELEASE_STORE_PASSWORD=your_store_password_here
+# RELEASE_KEY_ALIAS=your_key_alias_here
+# RELEASE_KEY_PASSWORD=your_key_password_here
+
+## ----------------------------------------------------------------------------
+## Map & Geocoding Notes:
+## This project uses MapLibre Native Android SDK with open endpoints:
+## - Vector Map Style: OpenFreeMap Bright (https://tiles.openfreemap.org/styles/bright)
+## - Satellite Tiles: Public Esri World Imagery
+## - Geocoding: Android Platform Geocoder with OSM Nominatim fallback
+## No proprietary API keys (e.g. Google Maps API key) are required to build or run.
+## ----------------------------------------------------------------------------

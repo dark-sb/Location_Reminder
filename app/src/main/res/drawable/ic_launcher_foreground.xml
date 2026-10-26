@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Pin shadow -->
+    <path
+        android:fillColor="#33000000"
+        android:pathData="M54,80c-5,0 -9,2 -9,4s4,4 9,4s9,-2 9,-4s-4,-4 -9,-4z" />
+    
+    <!-- Outer Location Pin Body -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,22C42.95,22 34,30.95 34,42c0,14.5 16.5,31 20,34.5c3.5,-3.5 20,-20 20,-34.5C74,30.95 65.05,22 54,22z" />
+
+    <!-- Inner Decorative Circle Background -->
+    <path
+        android:fillColor="#4F46E5"
+        android:pathData="M54,42m-13,0a13,13 0 1,1 26,0a13,13 0 1,1 -26,0" />
+
+    <!-- Reminder Bell Icon inside Pin -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,34c-0.55,0 -1,0.45 -1,1v0.35C50.67,35.85 49,37.95 49,40.5v4l-1.5,1.5v1h13v-1L59,44.5v-4c0,-2.55 -1.67,-4.65 -4,-5.15V35C55,34.45 54.55,34 54,34z M52.5,48c0,0.83 0.67,1.5 1.5,1.5s1.5,-0.67 1.5,-1.5H52.5z" />
+</vector>

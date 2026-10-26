@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <group
+        android:scaleX="0.333333"
+        android:scaleY="0.333333"
+        android:translateX="-6.0"
+        android:translateY="-4.6667">
+        <!-- Outer Location Pin with circular cutout -->
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:fillType="evenOdd"
+            android:pathData="M54,20C41.85,20 32,29.85 32,42c0,16 18.5,34.5 22,38c3.5,-3.5 22,-22 22,-38C76,29.85 66.15,20 54,20z M54,42m-14,0a14,14 0 1,1 28,0a14,14 0 1,1 -28,0Z" />
+
+        <!-- Reminder Bell inside cutout -->
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M54,33c-0.6,0 -1.1,0.5 -1.1,1.1v0.4C49.8,35.4 48,37.8 48,40.5v4.5l-2,2v1h16v-1l-2,-2v-4.5c0,-2.7 -1.8,-5.1 -4.9,-6V34.1C55.1,33.5 54.6,33 54,33z M52.2,50c0,1 0.8,1.8 1.8,1.8s1.8,-0.8 1.8,-1.8H52.2z" />
+    </group>
+</vector>
